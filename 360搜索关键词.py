@@ -11,4 +11,4 @@ fullurl=url+wd2
 print(fullurl)
 req=request.Request(fullurl)
 response=request.urlopen(req).read().decode()
-#print(response)
+print(response)
