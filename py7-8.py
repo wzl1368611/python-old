@@ -6,7 +6,7 @@ from email.mime.text import MIMEText
 #获取股票数据
 def getrealtimedata(share):
     dataNow=tushare.get_realtime_quotes(share.code)
-    share.name=dataNow.loc[0][0]
+    share.name=dataNow .loc[0][0]
 
     share.price=float(dataNow.loc[0][3])
     share.high=dataNow.loc[0][4]
@@ -83,7 +83,7 @@ def main(sharelist):
         else :
             print("别买也别卖")
         
-while 1==1:
+def main_02():
     share1=Share("600106",2.4,3.2)
     share2=Share("601988",3.5,3.8)
     share3=Share("000591",3.3,3.5)
@@ -92,7 +92,8 @@ while 1==1:
     main(list1)
     time.sleep(30)
 
-
+if __name__ == '__main__':
+    main_02()
 
 
 
