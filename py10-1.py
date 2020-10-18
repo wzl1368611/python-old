@@ -3,9 +3,9 @@
 #邮件接收方 GSRRKVWKBJEEWHUN
 import smtplib
 from email.mime.text import MIMEText
-msg_from ="wzl13686114760@126.com" #发送方
-pwd="ZHYOLPBFOJIAAOQX"
-to="1793268783@qq.com"
+msg_from ="XXXXXXXX@126.com" #发送方
+pwd="xxxxxxx"
+to="xxxxxxxx@qq.com"
 subject="毕业论文要求！"
 content="今天一起去野餐非常期待！"
 #构造邮件
